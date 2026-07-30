@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.TreeSet;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,4 +20,5 @@ public class Produit {
     private Long id;
     private String nom;
     private double price;
+
 }
